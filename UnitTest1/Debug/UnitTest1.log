@@ -1,0 +1,5 @@
+﻿  UnitTest1.cpp
+     Создается библиотека C:\Users\denfa\Desktop\Student\OOP_1.4\Debug\UnitTest1.lib и объект C:\Users\denfa\Desktop\Student\OOP_1.4\Debug\UnitTest1.exp
+UnitTest1.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: void __thiscall Complex::Init(double,double)" (?Init@Complex@@QAEXNN@Z) в функции "public: void __thiscall UnitTest::UnitTest::TestToString(void)" (?TestToString@UnitTest@1@QAEXXZ).
+UnitTest1.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall Complex::toString(void)const " (?toString@Complex@@QBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ) в функции "public: void __thiscall UnitTest::UnitTest::TestToString(void)" (?TestToString@UnitTest@1@QAEXXZ).
+C:\Users\denfa\Desktop\Student\OOP_1.4\Debug\UnitTest1.dll : fatal error LNK1120: неразрешенных внешних элементов: 2
